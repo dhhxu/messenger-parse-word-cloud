@@ -49,7 +49,7 @@ From Facebook web page:
 To get the messages from a single person:
 
 ```
-$ python parse.py -f "John Doe"
+$ python parse.py -p "John Doe"
 ```
 
 This will generate a text file in the `output` directory. Please note that the
@@ -58,7 +58,7 @@ name provided must match the person's name as displayed in the Messenger app.
 To get the messages from conversations between a person and yourself:
 
 ```
-$ python parse.py -f "John Doe" -s "Your Name"
+$ python parse.py -p "John Doe" -s "Your Name"
 ```
 
 Note that this considers conversations between that person and you,
